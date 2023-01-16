@@ -1,0 +1,89 @@
+/* Navigation bar */
+
+.container{
+    background-color: rgb(255, 144, 14, 0.1);
+    padding: 50px 20px;
+}
+.section-header{
+    display: flex;
+    justify-content: space-between;
+}
+.section-title{
+    margin-left: 50px;
+}
+.navigation{
+    display: flex;
+    gap: 15px;
+    margin-right: 50px;
+}
+
+/* Architects details */
+
+.architect{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.architect-detail{
+   align-items: center;
+}
+
+.btn-primary{
+    color: rgb(255, 255, 255);
+    background-color: goldenrod;
+    border: 0px;
+    
+}
+/* banner image */
+
+.banner-image img{ 
+width: 1200px;
+height: 600px;
+margin-top: 20px;
+}
+
+/* features*/
+.features{
+    background-color: white;
+
+}
+.featured-blog{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 73px;
+    margin-top: 30px;
+}
+.featured-images{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 15px;
+}
+
+.featured-images img{
+    height: 342px;
+    width: 342px;
+}
+
+/* architect enjoyable feature and image */
+
+.enjoyable-feature{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.enfeature-writing{
+    align-items: center;
+    justify-content: center;
+    /* margin-right: 100px; */
+}
+
+.architect-image{
+    height: 300px;
+    width: 250px;
+}
