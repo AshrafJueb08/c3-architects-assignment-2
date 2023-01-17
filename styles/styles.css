@@ -1,3 +1,13 @@
+/* Common */
+.btn-primary{
+    color: rgb(255, 255, 255);
+    background-color: orange;
+    height: 50px;
+    width: 100px;
+    border: 0px;
+}
+
+
 /* Navigation bar */
 
 .container{
@@ -30,12 +40,6 @@
    align-items: center;
 }
 
-.btn-primary{
-    color: rgb(255, 255, 255);
-    background-color: goldenrod;
-    border: 0px;
-    
-}
 /* banner image */
 
 .banner-image img{ 
@@ -74,16 +78,109 @@ gap: 15px;
     align-items: center;
     justify-content: center;
     margin-top: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
+    display: flexbox;
+    /* margin-left: 50px;
+    margin-right: 50px; */
 }
 .enfeature-writing{
-    align-items: center;
-    justify-content: center;
-    /* margin-right: 100px; */
+    
+    display: flex;
+    padding: 50px 20px;
+    flex-direction: column ;
+    
 }
 
-.architect-image{
-    height: 300px;
-    width: 250px;
+.enfeatured-title{
+    border-left: 2px solid ;
+    padding-left: 20px;
+}
+
+.architect-detail{
+    display: flex;
+    flex-direction: column;
+}
+.architect-image img{
+    height: 500px;
+    width: 400px;
+    margin-right: 100px;
+}
+
+.btn-special{
+    color: rgb(255, 255, 255);
+    background-color: orange;
+    height: 100px;
+    width: 150px;
+    border: 0px;
+    
+}
+/* Facts part */
+.facts{
+    padding: 20px 25px;
+}
+/* Achievements section */
+.achievements{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 20px 50px;
+}
+.awards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid orange;
+    padding: 20px 30px ;
+}
+.projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid orange;
+    padding: 20px 30px ;
+}
+.customers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid orange;
+    padding: 20px 30px ;
+}
+.email{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid orange;
+    padding: 20px 30px ;
+}
+
+/* Sponsors Section */
+
+.Sponsors{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.sponsor-logo{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    padding: 50px 50px;
+
 }
